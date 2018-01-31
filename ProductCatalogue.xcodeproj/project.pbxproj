@@ -19,6 +19,8 @@
 		280C9B402021E5310037C16B /* SessionServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280C9B392021E5310037C16B /* SessionServiceManager.swift */; };
 		280C9B412021E5310037C16B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280C9B3B2021E5310037C16B /* Constant.swift */; };
 		280C9B422021E5310037C16B /* UrlConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280C9B3C2021E5310037C16B /* UrlConstant.swift */; };
+		280C9B462021E6940037C16B /* CustomLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280C9B442021E6930037C16B /* CustomLoader.swift */; };
+		280C9B472021E6940037C16B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280C9B452021E6930037C16B /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		280C9B392021E5310037C16B /* SessionServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionServiceManager.swift; sourceTree = "<group>"; };
 		280C9B3B2021E5310037C16B /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		280C9B3C2021E5310037C16B /* UrlConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlConstant.swift; sourceTree = "<group>"; };
+		280C9B442021E6930037C16B /* CustomLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLoader.swift; sourceTree = "<group>"; };
+		280C9B452021E6930037C16B /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		280C9B132021E23E0037C16B = {
 			isa = PBXGroup;
 			children = (
+				280C9B432021E6930037C16B /* Utilities */,
 				280C9B3A2021E5310037C16B /* Constants */,
 				280C9B342021E5310037C16B /* Extensions */,
 				280C9B382021E5310037C16B /* Network */,
@@ -107,6 +112,15 @@
 				280C9B3C2021E5310037C16B /* UrlConstant.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		280C9B432021E6930037C16B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				280C9B442021E6930037C16B /* CustomLoader.swift */,
+				280C9B452021E6930037C16B /* Utility.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				280C9B402021E5310037C16B /* SessionServiceManager.swift in Sources */,
+				280C9B462021E6940037C16B /* CustomLoader.swift in Sources */,
 				280C9B3E2021E5310037C16B /* UINavigationControllerExtension.swift in Sources */,
+				280C9B472021E6940037C16B /* Utility.swift in Sources */,
 				280C9B222021E23E0037C16B /* ViewController.swift in Sources */,
 				280C9B412021E5310037C16B /* Constant.swift in Sources */,
 				280C9B282021E23F0037C16B /* ProductCatalogue.xcdatamodeld in Sources */,
